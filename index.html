@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. Vara Prasad | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Libraries -->
+    <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="canvas3d"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">SVP<span>.</span></div>
+        <div class="nav-links">
+            <a href="#hero">Index</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-cta"><a href="#contact" class="btn-s">Hire Me</a></div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <div class="hero-tagline reveal">Computer Science Engineer</div>
+                <h1 class="hero-title">
+                    <span class="line">SAMPA<span>THIRAO</span></span>
+                    <span class="line">VARA <span>PRASAD</span></span>
+                </h1>
+                <div class="hero-footer">
+                    <p class="reveal">Building modern digital experiences with <br> elegance and performance.</p>
+                    <div class="scroll-down">
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub">01. Perspective</span>
+                    <h2>The Journey</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-main glass reveal">
+                        <p class="large">Bachelor of Technology (B.Tech) in Computer Science Engineering student at RVR & JC College of Engineering, Guntur.</p>
+                        <p>My academic path began with a rigorous focus on Mathematics, Physics, and Chemistry at Sri Chaitanya Junior College, where I secured an outstanding 937/1000 marks. This strong analytical foundation naturally led me to the world of Computer Science, where I am currently pursuing my B.Tech (2024-2028).</p>
+                        <p>I am passionate about the intersection of elegant code and exceptional design. My experience spans full-stack development, from architecting robust backends with Node.js and Express to crafting immersive, responsive frontends. I don't just build websites; I create digital solutions like the 'Student PYQ Hub' that solve real-world academic challenges.</p>
+                        <p>Beyond traditional web tech, I explore the realms of 3D design and scene rendering using Blender, bringing a unique spatial perspective to my digital work. My goal is to build the high-performance, scalable systems that define the next generation of the web.</p>
+                    </div>
+                    <div class="about-sidebar">
+                        <div class="profile-card glass reveal">
+                            <img src="assets/profile_final.jpg" alt="S. Vara Prasad">
+                        </div>
+                        <div class="edu-card glass reveal">
+                            <h3>Education</h3>
+                            <div class="edu-item">
+                                <strong>B.Tech CSE</strong>
+                                <p>RVR & JC College of Engineering</p>
+                                <span>2024 - 2028</span>
+                            </div>
+                            <div class="edu-item">
+                                <strong>Intermediate (MPC)</strong>
+                                <p>Sri Chaitanya Junior College</p>
+                                <span>2022 - 2024 | 937/1000 Marks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section (Bento Grid) -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub">02. Expertise</span>
+                    <h2>Tech Stack</h2>
+                </div>
+                <div class="bento-grid">
+                    <div class="bento-item glass reveal" style="grid-area: fe;">
+                        <span class="icon">⚡</span>
+                        <h3>Frontend</h3>
+                        <p>HTML5, CSS3, JavaScript (ES6+), GSAP, Modern UI/UX Design patterns.</p>
+                    </div>
+                    <div class="bento-item glass reveal" style="grid-area: be;">
+                        <span class="icon">⚙️</span>
+                        <h3>Backend</h3>
+                        <p>Node.js, Express.js, REST API Development, Firebase Integration.</p>
+                    </div>
+                    <div class="bento-item glass reveal" style="grid-area: tools;">
+                        <span class="icon">🛠️</span>
+                        <h3>Web Dev</h3>
+                        <p>Responsive Design, API Integration, Dynamic Website Functionality.</p>
+                    </div>
+                    <div class="bento-item glass reveal" style="grid-area: design;">
+                        <span class="icon">🎨</span>
+                        <h3>3D & Editing</h3>
+                        <p>Blender 3D Modeling, Scene Creation, Rendering & Basic Animation.</p>
+                    </div>
+                    <div class="bento-item glass learning reveal" style="grid-area: learning;">
+                        <span class="sub">Currently Exploring</span>
+                        <h3>Advanced Backend Architecture</h3>
+                        <p>Deep diving into scalable systems and optimized data handling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="work" class="work">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub">03. Creations</span>
+                    <h2>Featured Work</h2>
+                </div>
+                <div class="projects-list">
+                    <!-- Project 1 -->
+                    <div class="project-item reveal">
+                        <div class="project-meta">
+                            <span class="num">01</span>
+                            <h3>Student PYQ Hub</h3>
+                            <p>Full Stack platform for accessing academic resources. Built with Node, Express, and Firebase.</p>
+                            <div class="tags"><span>Node.js</span><span>Express</span><span>Firebase</span></div>
+                            <div class="links">
+                                <a href="https://pyq-hub-app.web.app/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-view glass">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1000" alt="PYQ Hub">
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-item reverse reveal">
+                        <div class="project-meta">
+                            <span class="num">02</span>
+                            <h3>Learning Projects</h3>
+                            <p>A collection of responsive web applications and API-driven interfaces.</p>
+                            <div class="tags"><span>HTML/CSS</span><span>JavaScript</span><span>API</span></div>
+                            <div class="links">
+                                <a href="https://sampathiraovaraprasad8-ai.github.io/hostel/" target="_blank">Explore</a>
+                            </div>
+                        </div>
+                        <div class="project-view glass">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1000" alt="Projects">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-wrap glass reveal">
+                    <div class="contact-text">
+                        <h2>Ready to build something <span>extraordinary?</span></h2>
+                        <div class="contact-links">
+                            <a href="mailto:sampathiraovaraprasad8@gmail.com">Email Me</a>
+                            <a href="https://github.com/sampathiraovaraprasad8-ai" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/vara-prasad-sampathirao-3639963b7" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="contact-footer">
+                        <div class="location">Srikakulam, Andhra Pradesh</div>
+                        <div class="phone">+91 9346428871</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 S. Vara Prasad. Designed for those who appreciate perfection.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
